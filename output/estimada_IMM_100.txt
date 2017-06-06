@@ -1,0 +1,2 @@
+
+Nome de arquivo (serie_poster_100.txt) invalido ou arquivo inexistente!

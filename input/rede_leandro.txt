@@ -1,0 +1,23 @@
+# Descricao de uma linha:
+#
+# primeira coluna: nome do gene-alvo i
+# segunda coluna: valor inicial do gene-alvo ( S_i[0] )
+# terceira coluna em diante: genes preditores de x, acompanhados de seu respectivo coeficiente ( a_i_j )
+# 
+# Exemplo:  x00 1  -2.x01 3.x02 1.x03 
+#           Significa que x00 e' o gene-alvo, inicia com valor "1", e e' predito por x01 (com coeficiente -2),
+#           por x02 (com coeficiente 3) e por x03 (com coeficiente 1).
+# 
+x00 0   1.x01 1.x02 1.x05 1.x06
+x01 0   1.x04 1.x05 1.x06
+x02 0
+x03 0    1.x02
+x04 0    1.x02 1.x03
+x05 0
+x06 0    1.x01 1.x05 1.x07
+x07 0    1.x04
+x08 0    1.x09 1.x11
+x09 0
+x10 0    1.x09
+x11 0    1.x10 1.x12
+x12 0    1.x08
